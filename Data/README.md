@@ -1,4 +1,4 @@
-# Dataset Description - Assignment 1
+# Dataset Description
 
 The provided data is a modified version of a publicly available data source, and is subject to copyright.
 
@@ -30,3 +30,15 @@ The dataset can only be used for the purpose of this assignment. Sharing or dist
 | Sepssis                 | Target           | Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise |
 
 ### Missing Attribute Values: Yes
+
+ID: number to represent patient ID
+PRG: Plasma glucose
+PL: Blood Work Result-1 (mu U/ml)
+PR: Blood Pressure (mm Hg)
+SK: Blood Work Result-2 (mm)
+TS: Blood Work Result-3 (mu U/ml)
+M11: Body mass index (weight in kg/(height in m)^2
+BD2: Blood Work Result-4 (mu U/ml)
+Age: patients age (years)
+Insurance: If a patient holds a valid insurance card
+Sepsis: Positive: if a patient in ICU will develop a sepsis , and Negative: otherwise
