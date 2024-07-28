@@ -1,21 +1,20 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>SEPSIS PREDICTION</b></h1>
+  <h2><b>SEPSIS PREDICTION</b></h2>
 </div>
 
 # Table of Contents
 
-- [Table of Contents](#-table-of-contents)
 - [Sepsis Prediction](#sepsis-prediction)
-  - [Features](#features)
-  - [🛠 Built With](#-built-with)
+  - [Data Features](#features)
+  - [Built With](#-built-with)
 - [Objectives](#objectives)
 - [Streamlit Page Configuration](#streamlit-page-configuration)
 - [Dockerfile for API](#dockerfile-for-api)
-- [📝 License](#-license)
-- [👥 Authors](#-authors)
-- [⭐️ Show your support](#️-show-your-support)
+- [License](#-license)
+- [Authors](#-authors)
+- [Show your support](#️-show-your-support)
 
 # Sepsis Prediction<a name="about-project"></a>
 
@@ -182,12 +181,12 @@ This project is [MIT](./LICENSE) licensed.
 ## 👥 Authors <a name="authors"></a>
 
 🕵🏽‍♀️ **Loyce Zawadi Mumbua**
-
+- App :[Streamlit app](http://localhost:8501)
 - GitHub: [GitHub Profile](https://github.com/ZawadiLMG)
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/loyce-mumbua/)
 - Medium: [Medium Profile](https://medium.com/@mumbualoyce)
 - Email: mumbualoyce@gmail.com
-- deployed app :[Streamlit app](http://localhost:8501)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
