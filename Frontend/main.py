@@ -42,15 +42,15 @@ def show_form():
     with st.form('patient-details'):
         col1, col2, col3 = st.columns(3)
         with col1:
-            PRG = st.number_input('Plasma Glucose(PRG)', min_value=0, step=1)
-            PL = st.number_input('1st Bloodwork Result(PL)', min_value=0, step=1)
-            PR = st.number_input('Blood Pressure(PR)', min_value=0, step=1)
-        with col2:
-            SK = st.number_input('2nd Bloodwork Result(SK)', min_value=0, step=1)
-            TS = st.number_input('3rd Bloodwork Result(TS)', min_value=0, step=1)
+            PRG = st.number_input('Plasma Glucose (PRG)', min_value=0, step=1)
+            PR = st.number_input('Blood Pressure (PR)', min_value=0, step=1)
             M11 = st.number_input('M11', min_value=0, step=1)
+        with col2:
+            PL = st.number_input('1st Bloodwork Result (PL)', min_value=0, step=1)
+            SK = st.number_input('2nd Bloodwork Result (SK)', min_value=0, step=1)
+            TS = st.number_input('3rd Bloodwork Result (TS)', min_value=0, step=1)
         with col3:
-            BD2 = st.number_input('4th Bloodwork Result(BD2)', min_value=0, step=1)
+            BD2 = st.number_input('4th Bloodwork Result (BD2)', min_value=0, step=1)
             Age = st.number_input('Age', min_value=21, step=1)
             Insurance = st.number_input('Insurance', min_value=0, max_value=1)
             
