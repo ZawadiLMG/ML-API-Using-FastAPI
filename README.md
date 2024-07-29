@@ -11,8 +11,8 @@
   - [Features](#features)
   - [🛠 Built With](#-built-with)
 - [Objectives](#objectives)
-- [Streamlit Page Configuration](#streamlit page configuration)
-- [Dockerfile for API](#dockerfile for API)
+- [Streamlit Page Configuration](#streamlit-page-configuration)
+- [Dockerfile for API](#dockerfile-for-api)
 - [📝 License](#-license)
 - [👥 Authors](#-authors)
 - [⭐️ Show your support](#️-show-your-support)
@@ -60,7 +60,7 @@ The project involves training several machine learning models to predict the lik
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## **Objectives**
+## **Objectives**<a name="objectives"></a>
 1. Sepsis Prediction: Build a reliable and accurate ML model to predict sepsis, contributing to early detection and intervention.
 2. Model Confidentiality: Ensure the ML model architecture remains confidential while providing prediction services through an API.
 3. Accessibility: Enable users to interact with the sepsis prediction model via an easy-to-use API, making it accessible to those who already use APIs in their workflows.
@@ -88,7 +88,7 @@ Week 2: Modelling, evaluation
 Week 3: Building API, deployment
 Week 4: Containerization, API performance evaluation
 
-## **Streamlit Page Configuration**
+## **Streamlit Page Configuration**<a name="streamlit-page-configuration"></a>
 The Streamlit page is configured with a title, icon, and wide layout for better user experience. The configuration is set using st.set_page_config().
 
 ![Page screenshot of the app](https://github.com/ZawadiLMG/ML-API-Using-FastAPI/blob/main/Utils/app.PNG)
@@ -108,7 +108,7 @@ Upon form submission, the input data is sent to the backend API for prediction. 
 ![Prediction request](https://github.com/ZawadiLMG/ML-API-Using-FastAPI/blob/main/Utils/predict.PNG)
 ![Successful response](https://github.com/ZawadiLMG/ML-API-Using-FastAPI/blob/main/Utils/successful%20response.PNG)
 
-## **Dockerfile for API**
+## **Dockerfile for API**<a name="dockerfile-for-api"></a>
 Overview
 The Dockerfile is used to create a Docker image for the Sepsis Prediction API. This image encapsulates all dependencies and configurations needed to run the API, ensuring a consistent environment across different deployments.
 
